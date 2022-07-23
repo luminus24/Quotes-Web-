@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+.App{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.quoteBox{
+    display: inline-block;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #0005;
+    overflow: hidden;
+    width: 42vh;
+}
+
+.quote{
+    display: block;
+    margin :15px;
+}
+
+.authorQuote{
+    text-align: end;
+}
+
+.txtQuote{
+    display:flex ;
+}
+
+.fa-quote-left {
+    padding-right: 10px;
+    font-size: 2.5rem;
+}
+
+button{
+    color: white;
+    border: none;
+    width: 40px;
+    aspect-ratio: 1;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(46, 46, 46);
+}
+.btnQuotes{
+    text-align: end;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}

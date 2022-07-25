@@ -13,7 +13,7 @@ body{
     border-radius: 20px;
     box-shadow: 1px 1px 20px #0005;
     overflow: hidden;
-    width: 42vh;
+    width: 40vh;
 }
 
 .quote{
@@ -50,8 +50,8 @@ button{
     margin-bottom: 20px;
 }
 
-@media (min_with: 1080px ){
+@media (min-width: 1080px ){
     .quoteBox{
-        width: 50vh;
+        width: 70vh;
     }
 }

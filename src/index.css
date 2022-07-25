@@ -49,3 +49,9 @@ button{
     margin-right: 30px;
     margin-bottom: 20px;
 }
+
+@media (min_with: 1080px ){
+    .quoteBox{
+        width: 50vh;
+    }
+}
